@@ -21,6 +21,9 @@ This kind of system is usually deployed to prevent botnet-attacks (a botnet is a
 ### System
 ---------------------------------
 
+<img width="1920" height="1080" alt="IOT_system" src="https://github.com/user-attachments/assets/13a063f7-349e-43cc-b9ad-e792ad5dceea" />
+
+
 ---------------------------------
 ### Updates
 ---------------------------------

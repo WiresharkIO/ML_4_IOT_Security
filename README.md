@@ -34,9 +34,8 @@ This kind of system is usually deployed to prevent botnet-attacks (a botnet is a
 ---------------------------------
 ### References
 ---------------------------------
-#### Dataset
 
-“Sebastian Garcia, Agustin Parmisano, & Maria Jose Erquiaga. (2020). IoT-23: A labeled dataset with malicious and benign IoT network traffic (Version 1.0.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4743746”
+Garcia, S., Parmisano, A., & Erquiaga, M. J. (2020). IoT-23: A labeled dataset with malicious and benign IoT network traffic [Data set]. Zenodo. https://doi.org/10.5281/ZENODO.4743745
 
 > Updates:
 1. Added XGBoost classifier and converted it to ONNX model to make it deployable at microcontrollers such as STM32.

@@ -27,9 +27,18 @@ This kind of system is usually deployed to prevent botnet-attacks (a botnet is a
 > This system consists of an esp32 based sensor (an acting device, ideally this is the device which should be running packet sniffing and formatting the packets to structured formats using zeek), which sends simulated network information (in current stage of this project, it is the IOT-23 dataset) to the raspberry pi gateway (an acting device, where interception of the incoming data and detection using ML/DL, rule based inference, and ensemble based hybrid inference takes place).
 
 ---------------------------------
-### Updates
+### Considerations
 ---------------------------------
 
+This study is meant for designing a system which can act as a gateway to detect anomalies in a network, it focuses on:
+- model design and development and/or hybrid ensemble strategies
+- deploying developed model on resource constrained device (Raspberry pi 3 model-B in our case))
+- communication over local network device(s) (wifi) with mqtt protocol and mosquitto (broker)
+- evaluates on-device parameters like latency/memory-consumption
+- off-device parameters like FLOPs (for models)
+- realtime adherence (yet to be decided on the approach based on the evaluation parameters on-device)
+
+It should be noted that the offloading work of network behaviour by collecting network parameters is done by using IOT-23 dataset, but it can be monitored using combination of tools like tcpdump/wireshark and zeek.
 
 ---------------------------------
 ### References

@@ -21,8 +21,18 @@ This kind of system is usually deployed to prevent botnet-attacks (a botnet is a
 ### System
 ---------------------------------
 
-<img width="1718" height="1055" alt="IOT_system" src="https://github.com/user-attachments/assets/65514cf1-e2b2-4617-96f1-61f62ae63771" />
-
+<table>
+  <tr>
+    <td align="center">
+      <img width="1718" height="1055" alt="IOT_system" src="https://github.com/user-attachments/assets/65514cf1-e2b2-4617-96f1-61f62ae63771" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Distributed Edge IDS (Intrusion Detection System) with an Inline Security Gateway.
+    </td>
+  </tr>
+</table>
 
 > This system consists of an esp32 based sensor (an acting device, ideally this is the device which should be running packet sniffing and formatting the packets to structured formats using zeek), which sends simulated network information (in current stage of this project, it is the IOT-23 dataset) to the raspberry pi gateway (an acting device, where interception of the incoming data and detection using ML/DL, rule based inference, and ensemble based hybrid inference takes place).
 

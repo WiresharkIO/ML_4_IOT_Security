@@ -15,7 +15,7 @@ Why this project?
 
 In real enterprise scenario this gateway will be acting as an intermediate node between sensor/consumer devices/etc and the central node (could be a raspberry pi where decision making happens based on the sensor data) to offload security screenings from the central node.
 
-This kind of system is usually deployed to prevent botnet-attacks (a botnet is a network of internet-connected devices infected with malware and controlled remotely by a hacker), where devices get infected through malicious links, phishing emails, or weak passwords.
+This kind of system is usually deployed to prevent botnet-attacks (a botnet aka robot network is a network of internet-connected devices infected with malware and controlled remotely by a hacker), where devices get infected through malicious links, phishing emails, or weak passwords.
 
 ---------------------------------
 ### System
